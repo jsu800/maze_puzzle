@@ -28,8 +28,8 @@ Pledge, Tremaux, etc, algo or the likes. Mine hugs the nearest wall one pixel ov
 until exit is found. Fast and no extra memory. O(n).This is assuming maze wall is non-continuous and the exit 
 isn’t in the center of the maze.
 
-One can also optimize the solution using BitmapData instead of GetPixel(), converting all ARGB data into RGB 
-arrays for manipulation.
+Observation: even though this console outputs its soluiton on a relatively complex maze (see maze2 and maze3) in under a few seconds, one may optimize the solution using BitmapData instead of GetPixel(), converting all ARGB data into RGB 
+arrays for manipulation. 
 
 Recursive solution code snippet:
 
