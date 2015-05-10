@@ -1,0 +1,9 @@
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/bin/Debug/CSharpMazeProblem.exe.mdb
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/bin/Debug/CSharpMazeProblem.exe
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/obj/x86/Debug/CSharpMazeProblem.exe
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/obj/x86/Debug/CSharpMazeProblem.exe.mdb
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/bin/Debug/maze.exe.mdb
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/bin/Debug/maze.exe
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/obj/x86/Debug/maze.exe
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/obj/x86/Debug/maze.exe.mdb

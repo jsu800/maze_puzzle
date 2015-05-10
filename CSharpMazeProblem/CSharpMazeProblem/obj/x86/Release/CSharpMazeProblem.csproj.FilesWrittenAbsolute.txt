@@ -1,0 +1,3 @@
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/obj/x86/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/bin/Release/CSharpMazeProblem.exe
+/Users/Home/Documents/workspace/CSharpMazeProblem/CSharpMazeProblem/obj/x86/Release/CSharpMazeProblem.exe

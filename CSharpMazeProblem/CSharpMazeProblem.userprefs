@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="CSharpMazeProblem/maze.csproj">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Unity/UnityAweDemo/Assets/WebTexture.cs">
+    <Files>
+      <File FileName="../Unity/UnityAweDemo/Assets/WebTexture.cs" Line="229" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
