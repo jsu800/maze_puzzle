@@ -19,11 +19,13 @@ maze.exe “source.[bmp,png,jpg]” “destination.[bmp,png,jpg]”
 - Solution route is drawn in Green
 
 ##Thoughts
-This illustrates the wall following solution which isn’t the shortest one. DFS solution is about 20 lines 
+- This illustrates the wall following solution which isn’t the shortest one. DFS solution is about 20 lines 
 but it is recursively intensive on stack with large images. More optimal solution would involve A* Pathfinder,
 Pledge, Tremaux, etc, algo or the likes. Mine hugs the nearest wall one pixel over and moves along the wall 
 until exit is found. Fast and no extra memory. O(n).This is assuming maze wall is non-continuous and the exit 
 isn’t in the center of the maze.
+
+- Solution route can be made shorter by provisioning a "dirty bit" vector consisting of visited pixel coordinates; revisiting the same route again can eliminate all of the "cycles" (i.e., out and back routes that can be avoided) to make the entire route much shorter. We trade space for efficiency.
 
 ##Observations
 Even though this console outputs its soluiton on a relatively complex maze (see maze2 and maze3) in under a few seconds, one may optimize the solution using BitmapData instead of GetPixel(), converting all ARGB data into RGB 
