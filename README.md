@@ -62,3 +62,5 @@ else {
     return false;
 }
 ```
+
+![](https://github.com/jsu800/maze_puzzle/blob/master/CSharpMazeProblem/CSharpMazeProblem/output/output_maze2.png)
