@@ -62,3 +62,8 @@ else {
 ```
 ## Solved Examples
 ![](https://github.com/jsu800/maze_puzzle/blob/master/CSharpMazeProblem/CSharpMazeProblem/output/output_maze2.png)
+
+##License
+The MIT License (MIT)
+
+Copyright (c) 2014 github.com/jsu800
