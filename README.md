@@ -8,15 +8,15 @@ The syntax of the program is:
 maze.exe “source.[bmp,png,jpg]” “destination.[bmp,png,jpg]”
 
 ##Rules:
-- [] Start at Red
+- Entry Point in Red
 
-- [] Finish at Blue
+- Destination Point in Blue
 
-- [] All walls are black
+- All walls are in Black
 
-- [] Maze is completely surrounded by black walls
+- Maze may be completely surrounded by Black walls or with "crevices" or break in Walls
 
-- [] Draw the solution on the image in green
+- Solution route is drawn in Green
 
 ##Thoughts
 This illustrates the wall following solution which isn’t the shortest one. DFS solution is about 20 lines 
@@ -60,7 +60,10 @@ else {
     return false;
 }
 ```
-## Solved Examples
+## Example Input
+![](https://github.com/jsu800/maze_puzzle/blob/master/CSharpMazeProblem/CSharpMazeProblem/input/maze2.png)
+
+## Solved Output
 ![](https://github.com/jsu800/maze_puzzle/blob/master/CSharpMazeProblem/CSharpMazeProblem/output/output_maze2.png)
 
 ##License
