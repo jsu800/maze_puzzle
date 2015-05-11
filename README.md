@@ -1,7 +1,4 @@
-=============
-Maze Puzzle
-=============
-
+##Maze Puzzle
 This is a command line program in C# that takes a maze image as input and solves the maze and 
 writes it to an output image. The attached sample maze inputs (../input) are solved accordinly 
 (../output). Note that the samples do not represent all types of mazes.
@@ -10,28 +7,29 @@ The syntax of the program is:
 
 maze.exe “source.[bmp,png,jpg]” “destination.[bmp,png,jpg]”
 
-Rules:
+##Rules:
+- [] Start at Red
 
-1) Start at Red
+- [] Finish at Blue
 
-2) Finish at Blue
+- [] All walls are black
 
-3) All walls are black
+- [] Maze is completely surrounded by black walls
 
-4) Maze is completely surrounded by black walls
+- [] Draw the solution on the image in green
 
-5) Draw the solution on the image in green
-
+##Thoughts
 This illustrates the wall following solution which isn’t the shortest one. DFS solution is about 20 lines 
 but it is recursively intensive on stack with large images. More optimal solution would involve A* Pathfinder,
 Pledge, Tremaux, etc, algo or the likes. Mine hugs the nearest wall one pixel over and moves along the wall 
 until exit is found. Fast and no extra memory. O(n).This is assuming maze wall is non-continuous and the exit 
 isn’t in the center of the maze.
 
-Observation: even though this console outputs its soluiton on a relatively complex maze (see maze2 and maze3) in under a few seconds, one may optimize the solution using BitmapData instead of GetPixel(), converting all ARGB data into RGB 
+##Observations
+Even though this console outputs its soluiton on a relatively complex maze (see maze2 and maze3) in under a few seconds, one may optimize the solution using BitmapData instead of GetPixel(), converting all ARGB data into RGB 
 arrays for manipulation. 
 
-Recursive solution code snippet:
+##Recursive code snippet:
 
 ```
 if (mSource.GetPixel (x, y).ToArgb () == Color.White.ToArgb ()) 
@@ -62,5 +60,5 @@ else {
     return false;
 }
 ```
-
+## Solved Examples
 ![](https://github.com/jsu800/maze_puzzle/blob/master/CSharpMazeProblem/CSharpMazeProblem/output/output_maze2.png)
